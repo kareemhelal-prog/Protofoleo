@@ -577,9 +577,9 @@ body.loaded .social-col{opacity:1; transition-delay:1.9s;}
     </div>
     <div class="about-side" id="aboutSide">
       <div class="side-row"><div class="side-label">LOCATION</div><div class="side-value">Egypt</div></div>
-      <div class="side-row"><div class="side-label">FOCUS</div><div class="side-value">Backend Development — <b>Node.js / Express / MySQL</b></div></div>
-      <div class="side-row"><div class="side-label">STATUS</div><div class="side-value">B.IT in progress, Borg El Arab Technological University — expected 2027</div></div>
-      <div class="side-row"><div class="side-label">ROLE</div><div class="side-value">Team Lead on <b>UniConnect</b></div></div>
+      <div class="side-row"><div class="side-label">FOCUS</div><div class="side-value">Full-stack: <b>React</b> on the front, <b>Node.js, Express and MySQL</b> on the back, with the most depth in the backend</div></div>
+      <div class="side-row"><div class="side-label">EDUCATION</div><div class="side-value">B.IT at Borg El Arab Technological University, graduating 2027</div></div>
+      <div class="side-row"><div class="side-label">ROLE</div><div class="side-value">Team Lead on <b>UniConnect</b>. Full-stack, mostly backend, plus code review</div></div>
     </div>
   </div>
 
@@ -621,7 +621,7 @@ body.loaded .social-col{opacity:1; transition-delay:1.9s;}
           <div class="proj-tags"><span>WEB APPLICATION</span><span>FULL-STACK</span><span>SOCIAL PLATFORM</span></div>
           <div class="proj-built">
             <div class="proj-built-label">BUILT WITH</div>
-            <div class="proj-stack">JavaScript · Node.js · Express · MySQL · REST API</div>
+            <div class="proj-stack">React · JavaScript · Node.js · Express · MySQL · REST API</div>
           </div>
           <div class="proj-cta-row">
             <a class="proj-live" href="#" target="_blank" rel="noopener"><span class="pl-dot"></span><span class="pl-t">LIVE DEMO</span><span class="pl-a">↗</span></a>
@@ -654,11 +654,11 @@ body.loaded .social-col{opacity:1; transition-delay:1.9s;}
     </div>
     <div class="case-stage">
       <div class="case-label">THE SYSTEM</div>
-      <p>A role-based platform for Students, Doctors and Admins — subject groups, file sharing, team formation for projects, an academic feed, and real-time messaging built on a follow/following model, so each user's feed reflects who they're actually connected to.</p>
+      <p>A full-stack, role-based platform for Students, Doctors and Admins — subject groups, file sharing, team formation for projects, an academic feed, and real-time messaging built on a follow/following model, so each user's feed reflects who they're actually connected to.</p>
     </div>
     <div class="case-stage">
       <div class="case-label">THE ARCHITECTURE</div>
-      <p>A React front end talking to a Node.js/Express REST API, with MySQL handling users, groups, posts and follow relationships. JWT-based authentication enforces role permissions at the API level. As team lead, I reviewed every pull request — catching bugs and inconsistencies before they reached the main branch.</p>
+      <p>A React and JavaScript front end talking to a Node.js/Express REST API, with MySQL handling users, groups, posts and follow relationships. JWT-based authentication enforces role permissions at the API level. I worked across the full stack, with most of my focus on the backend. As team lead, I reviewed every pull request — catching bugs and inconsistencies before they reached the main branch.</p>
     </div>
     <div class="case-stage">
       <div class="case-label">THE RESULT</div>
@@ -832,9 +832,9 @@ function playAbout(){
     typeText(document.getElementById('typedCmd'), 'whoami', 90, ()=>{
       setTimeout(()=>{
         const bioLines = [
-          "IT student specializing in backend development.",
-          "Building UniConnect, a closed academic social network, as my graduation project.",
-          "Leading the team — reviewing code, catching bugs before they ship."
+          "Full-stack developer with a backend focus. React on the front, Node.js and MySQL behind it.",
+          "Team lead on UniConnect, a private academic network where every account is verified by university email.",
+          "I review every pull request: a bug caught before merge costs minutes, after launch it costs trust."
         ];
         typeLines(document.getElementById('typedOut'), bioLines, 0, ()=>{
           document.getElementById('aboutSide').classList.add('show');
